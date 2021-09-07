@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+  body,html {
+    
+}
+  body
+  {
+  	background-image:url('https://images.unsplash.com/photo-1589838979285-afeef24abe47?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8c3VubnklMjB3ZWF0aGVyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60');
+    overflow: hidden;
+    /*background-repeat: no-repeat;
+    background-position:center;
+    font-family: Arial, Helvetica, sans-serif;
+    /*background-size: cover;*/
+    max-height: 100%;
+    object-fit: cover;
+	object-fit: cover; */   
+	/*background-size: 320px 600px;*/
+background-repeat: no-repeat;
+	    
+  	moz-background-size: 100% 100%;
+-webkit-background-size: 100% 100%;
+background-size: 100% 100%;
+  }	
+  .app-main
+  {
+  	width: 50vh;
+  	margin: 100px auto;
+  	background-color: rgba(240,248,255,0.6);
+  	text-align: center;
+  	padding: 20px;
+  	border-radius: 2px;
+  }
+  .app-main > *{
+  	margin-bottom:20px;
+  }
+  .input-box
+  {
+  	
+  	width: 100%;
+  	background-color: rgba(255,255,255,0.6);
+  	border: none;
+  	outline: none;
+  	color: #582233;
+  	font-size: 1.2rem;
+  	height: 50px;
+  	border-radius: 5px;
+  	padding: 0 10px;
+  	text-align: center;
+  }
+  .input-box:focus
+  {
+  	background-color: rgba(255,255,255);
+  }
+  .weather-body
+  {
+  	color: #582233;
+  	padding: 20px;
+  	line-height: 2rem;
+  	border-radius: 10px;
+  	background-color: rgba(255,255,255,0.6);
+  	height: 50vh;
+  }
+.location-details{
+	font-weight: bold;
+}
+.weather-status{
+	padding: 20px;
+	/*max-height: 40vh;*/
+}
+.temp{
+	font-size: 50pt;
+	font-weight: 700;
+	margin: 20px 0;
+	text-shadow: 2px 4px rgba(0,0,0,0.3);
+}
+.min-max,.weather
+{
+	font-size: 12pt;
+	font-weight: 600;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
